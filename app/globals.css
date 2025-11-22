@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 252 251 255;
+  --foreground: 26 24 35;
+}
+
+.dark {
+  --background: 17 16 25;
+  --foreground: 232 229 242;
+}
+
+body {
+  @apply bg-[rgb(var(--background))] text-[rgb(var(--foreground))] min-h-screen antialiased;
+}

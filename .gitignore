@@ -235,6 +235,10 @@ downloads/
 eggs/
 .eggs/
 lib/
+
+# Allow Next.js application libraries inside lib/
+!lib/
+!lib/**/*.ts
 lib64/
 parts/
 sdist/
